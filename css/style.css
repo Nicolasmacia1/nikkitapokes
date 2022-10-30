@@ -97,7 +97,7 @@
     align-content: center;
     margin-top: 10%;
   border: #F2C2C2;
-    Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
   
@@ -140,7 +140,7 @@
   }
   
   input{
-    Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
    color: #F2C2C2;
   background-color: #DCB5B8;
   
@@ -148,7 +148,7 @@
   
   
   select{
-    Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
    background-color: #F2C2C2;
   }
   
