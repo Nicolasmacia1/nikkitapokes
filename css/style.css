@@ -1,0 +1,348 @@
+
+
+.titulo{                                                                                                                                              
+
+    word-spacing: 1%;
+    letter-spacing: 1em;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;  
+    color: #F2C2C2
+    }
+  
+  header{
+    text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif
+      ; background-color: white(24, 2, 2);
+      }
+      .menu{
+           list-style: none;
+           padding: 0;
+          
+           width: 90%;
+           max-width: 100%;
+          
+          }
+  
+      .menu li a {
+          text-decoration: none; 
+          color: black;
+          padding: 20px;
+          display: block;
+      }
+    .menu li {
+          display: inline-block;
+          text-align: center;
+  }
+  
+  .menu li a:hover{
+   color: #F2C2C2
+       }
+  
+  .sobrenicole1{
+  
+    font-family: Harmonia Sans,sans-serif;
+    padding: 2em;
+    
+  margin-right: 2em;
+   color: red
+  
+  }
+  
+  main{
+    text-align: center;
+   margin: 0em;
+  }
+  
+  
+  .about{
+    color: red(22, 22, 161);
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
+  }
+  
+  .nicole{
+  margin-right: 20%;
+    margin-left: 20%;
+    font-size: small;
+    font-family: Harmonia Sans,sans-serif;
+    text-align: center;
+  background-color: none;
+  color: rgb(71, 61, 61);
+  margin-top: 10em;
+  
+  }
+  
+  .comparasion{
+  
+  border-bottom: 1px solid #F2C2C2;
+  border-top: 0%;
+  margin: 2em;
+  padding-bottom: 4em;
+  }
+  
+  
+  #redesfooter{
+    margin-top: 10%;
+    display: flex;
+   justify-content: center;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  }
+  
+  
+   .formulario{
+    align-content: center;
+    margin-top: 10%;
+  border: #F2C2C2;
+    Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  
+  
+  option{
+    background-color: #F2C2C2;
+  }
+  select{
+    background-color: #F2C2C2;
+  }
+  
+  textarea{
+    margin-top: 1em;
+  height: 50px;
+    background-color:#DCB5B8;
+  }
+  fieldset.email{
+  border: 2px solid#F2C2C2;
+   margin-left: 20%;
+    margin-right: 20%;
+  position: relative;
+  right: 110px;
+  border-bottom: 2px solid#F2C2C2;
+  align-self: center;
+  }
+  fieldset.datos{
+    border: 2px solid#F2C2C2;
+    margin-left: 20%;
+     margin-right: 20%;
+   position: relative;
+   border-bottom: 2px solid#F2C2C2;
+  align-self: center;
+  }
+  
+  
+  
+  legend{
+    color: rgb(71, 61, 61);
+  }
+  
+  input{
+    Georgia, 'Times New Roman', Times, serif;
+   color: #F2C2C2;
+  background-color: #DCB5B8;
+  
+  }
+  
+  
+  select{
+    Georgia, 'Times New Roman', Times, serif;
+   background-color: #F2C2C2;
+  }
+  
+  
+  
+  .imagen{
+   
+  
+  
+  line-height: 100px;
+  justify-content: center;
+  margin: 0%;
+  
+  }
+  
+  .imagen img{
+  width: 170px;
+  height: 181px;
+  margin-bottom: 0%;
+  box-shadow: 0px 10px 15px;
+  animation-name: imagenes;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  
+  }
+  
+  
+  
+  
+  
+  .galeria{
+  
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+  display: grid;
+  align-content: center;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #F2C2C2;
+  
+  } 
+  .digitaldesingtitulo{ 
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red(22, 22, 161);
+    margin: 2em;
+    border-bottom: 1px solid #F2C2C2;
+  }
+  .casa{
+    height: 10em;
+  margin-left: 20em;
+  margin-top: 10em;
+  }
+  .fondo{
+  background-color: #F2C2C2;
+  }
+  .imagen45{
+  background-color: #F2C2C2;
+  }
+  
+  .handpoked{
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red(22, 22, 161);
+    margin: 2em;
+    border-bottom: 1px solid#F2C2C2;
+  }
+  .contenedor .galeria :hover{
+  transform: scale(1.2);
+  z-index: 1;
+  
+  
+  }
+  
+  
+  
+  
+  @keyframes imagenes {
+    100% {color:#563232}
+  
+    
+  }
+  
+  footer{
+    margin-top: 10em;
+  }
+  .menufooter{
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .menufooter li{
+    list-style: none;
+  }
+    
+  .menufooter li a{
+   list-style: none;
+    text-decoration: none; 
+    color:rgb(71, 61, 61);
+    padding: 20px;
+  }
+  
+  
+  .menufooter li a:hover{
+    color: #F2C2C2;
+        }
+   
+  
+  .footertitulo{
+  border-bottom-style: solid;
+  border-color: #F2C2C2;
+  border-width: 1px;
+    font-size: small;
+    margin-right: 60em;
+    margin-bottom: 2em;
+    color: #F2C2C2;
+  margin-left: 5%;
+    text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  .newsletter{
+  align-self: center;
+    color: #F2C2C2;
+  
+  margin-bottom: -8em;
+    margin-left: 50em;
+  margin-right: 5em;
+    font-size: small;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .newslettertitulo{
+  
+    border-bottom-style: solid;
+  border-color: #F2C2C2 1px;
+  border-width: 1px;
+  font-size: small;
+  margin-bottom: 2em;
+  
+  }
+  
+  
+  
+  
+  a{
+    text-decoration: none;
+  
+    color:rgb(71, 61, 61);
+  }
+  
+  body{
+    background-image: url(../fondo/218d135c3dea9c48dbbd5bf3e5b0fd1b.jpg);
+    background-size: contain;
+  background-size: cover;
+  }
+  
+  input{
+    background-color: #F2C2C2;
+  border: #F2C2C2;
+  color: rgb(71, 61, 61);
+  }
+  .contacto{
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red(22, 22, 161);
+    margin: 2em;
+    border-bottom: 1px solid #F2C2C2;
+  text-align: justify;
+  }
+  
+  .instagram a:hover {
+   color: #F2C2C2;
+  }
+  .facebook a:hover{
+    color: #528EE4;
+  }
+  .behance a:hover{
+    color: #8BCAD9;
+  
+  }
+  .pinterest a:hover{
+    color: red;
+  }
+  
+  
