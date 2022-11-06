@@ -345,4 +345,87 @@
     color: red;
   }
   
+  /*Index media */
+  .grilla-index{
+
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 10% 60% 5% 10%;
+    grid-template-areas: 
+    "menu"
+    "main"
+    "formulario"
+    "publicidad"
   
+  
+  }
+  .grilla-index header{
+    grid-area: menu;
+    }
+    
+    .grilla-index main{
+      grid-area: main;
+    }
+  
+    .grilla-index .formularioymenu{
+      grid-area: formulario;
+    }
+    .grilla-index .publicidad{
+      grid-area: publicidad;
+    }
+    
+    @media screen and (min-width:400px) and (max-width:767){
+      
+      .grilla-index{
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 60% 5% 40%;
+        grid-template-areas: 
+        "menu"
+        " main"
+        "formulario"
+    "publicidad"
+        /*
+        grid row-gap: 1em;
+        width: 95%;
+        height: 100vh;*/
+      }
+   }
+  
+   @media screen and (min-width:768px) and (max-width:1023px ) {
+  
+    .grilla-index{
+      display:grid;
+      grid-template-columns: 1;
+      grid-template-rows: 10% 60% 5% 10%;
+      grid-template-areas: 
+      "menu"
+      " main"
+      "formulario"
+  "publicidad"
+      /*
+          grid row-gap: 1em;
+      width: 95%;
+      height: 100vh
+  */
+  
+   }
+    }
+  
+    @media screen and(min-width:1024px) {
+      .grilla-index{
+      display:grid;
+      grid-template-columns: 1;
+      grid-template-rows: 1% 20% 5% 5%;
+      grid-template-areas: 
+      "menu"
+      " main"
+      "formulario"
+  "publicidad"
+     /*
+      grid row-gap: 1em;
+      width: 95%;
+      height: 100vh
+    */
+    }
+    }
