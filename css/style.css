@@ -1,21 +1,22 @@
 
 
 .titulo{                                                                                                                                              
-
+  display: flex;
+  justify-content: center;
     word-spacing: 1%;
     letter-spacing: 1em;
     text-align: center;
-    padding: 0%;
-    margin: 0%;  
+  
     color: #F2C2C2
     }
   
   header{
+  
     text-align: center;
-     font-family: Georgia, 'Times New Roman', Times, serif
-      ; background-color: white(24, 2, 2);
+     font-family: Georgia, 'Times New Roman', Times, serif;
       }
       .menu{
+        right: 122em;
            list-style: none;
            padding: 0;
           
@@ -24,7 +25,17 @@
           
           }
   
+       @media screen and (max-width:400px){
+        .titulo{                                                                                                                                              
+  text-align: center;
+          }
+       }
+            
+  
+          
+  
       .menu li a {
+      
           text-decoration: none; 
           color: black;
           padding: 20px;
@@ -56,9 +67,11 @@
   
   
   .about{
+  justify-content: flex-end;
     color: red(22, 22, 161);
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
+  text-align: center;
   }
   
   .nicole{
@@ -97,7 +110,7 @@
     align-content: center;
     margin-top: 10%;
   border: #F2C2C2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+    Georgia, 'Times New Roman', Times, serif;
     
   }
   
@@ -140,7 +153,7 @@
   }
   
   input{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+    Georgia, 'Times New Roman', Times, serif;
    color: #F2C2C2;
   background-color: #DCB5B8;
   
@@ -148,7 +161,7 @@
   
   
   select{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    Georgia, 'Times New Roman', Times, serif;
    background-color: #F2C2C2;
   }
   
@@ -274,16 +287,16 @@
   }
   
   .newsletter{
-  align-self: center;
+  align-items: center;
     color: #F2C2C2;
-  
+  justify-content: center;
   margin-bottom: -8em;
     margin-left: 50em;
   margin-right: 5em;
     font-size: small;
-  text-align: left;
+  size-adjust: 10em;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  align-items: center;
+  
   }
   
   
@@ -345,9 +358,8 @@
     color: red;
   }
   
-  /*Index media */
   .grilla-index{
-
+  
     display:grid;
     grid-template-columns: 1;
     grid-template-rows: 10% 60% 5% 10%;
