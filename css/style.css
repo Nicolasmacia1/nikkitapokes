@@ -25,14 +25,6 @@
           
           }
   
-       @media screen and (max-width:400px){
-        .titulo{                                                                                                                                              
-  text-align: center;
-          }
-       }
-            
-  
-          
   
       .menu li a {
       
@@ -382,7 +374,7 @@
     .grilla-index .formularioymenu{
       grid-area: formulario;
     }
-    .grilla-index .publicidad{
+    .grilla-index .redesfooter{
       grid-area: publicidad;
     }
     
@@ -391,7 +383,7 @@
       .grilla-index{
        
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 60% 5% 40%;
+        grid-template-rows: 10% 60% 5% 10%;
         grid-template-areas: 
         "menu"
         " main"
@@ -409,7 +401,7 @@
     .grilla-index{
       display:grid;
       grid-template-columns: 1;
-      grid-template-rows: 10% 60% 5% 10%;
+      grid-template-rows: 20% 30% 5% 10%;
       grid-template-areas: 
       "menu"
       " main"
@@ -428,7 +420,7 @@
       .grilla-index{
       display:grid;
       grid-template-columns: 1;
-      grid-template-rows: 1% 20% 5% 5%;
+      grid-template-rows: 10% 20% 10% 5%;
       grid-template-areas: 
       "menu"
       " main"
@@ -441,3 +433,181 @@
     */
     }
     }
+
+
+/*media mediaquery pagina handpoked */
+
+    .grilla-handpoked{
+  
+      display:grid;
+      grid-template-columns: 1;
+      grid-template-rows: 10% 10% 60% 10%;
+      grid-template-areas: 
+      "menu"
+      "galeria"
+      "formulario"
+      "publicidad"
+    }
+
+    .grilla-handpoked header{
+      grid-area: menu;
+      }
+      
+      .grilla-handpoked section .contenedor{
+        grid-area: galeria;
+      }
+    
+     
+    .grilla-handpoked .formularioymenu{
+      grid-area: formulario;
+    }
+    .grilla-handpoked .redesfooter{
+      grid-area: publicidad;
+    }
+    
+      
+
+      @media screen and(min-width:1024px) {
+        .grilla-handpoked{
+        display:grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1% 10% 5% 5%;
+        grid-template-areas: 
+        "menu"
+        "galeria"
+        "formulario"
+    "publicidad"
+       /*
+        grid row-gap: 1em;
+        width: 95%;
+        height: 100vh
+      */
+      }
+      }
+   @media screen and (min-width:768px) and (max-width:1023px ) {
+  
+    .grilla-handpoked{
+      display:grid;
+      grid-template-columns: 1;
+      grid-template-rows: 5% 10% 60% 10%;
+      grid-template-areas: 
+      "menu"
+      "galeria"
+      "formulario"
+  "publicidad"
+      /*
+          grid row-gap: 1em;
+      width: 95%;
+      height: 100vh
+  */
+  
+   }
+    }
+    @media screen and (min-width:400px) and (max-width:767){
+      
+      .grilla-handpoked{
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 60% 20% 20%;
+        grid-template-areas: 
+        "menu"
+        "galeria"
+        "formulario"
+    "publicidad"
+        /*
+        grid row-gap: 1em;
+        width: 95%;
+        height: 100vh;*/
+      }
+   }
+
+   /* media query digital desing */
+
+   
+   .grilla-digitaldesing{
+  
+   display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 10% 20% 40% ;
+    grid-template-areas: 
+    "menu"
+    "galeria"
+    "formulario"
+    "publicidad"
+   
+   }
+
+   
+   .grilla-digitaldesing header{
+    grid-area: menu;
+    }
+    
+    .grilla-digitaldesing section .contenedor{
+      grid-area: galeria;
+    }
+  
+     
+    .grilla-digitaldesing .formularioymenu{
+      grid-area: formulario;
+    }
+    .grilla-digitaldesing .redesfooter{
+      grid-area: publicidad;
+    }
+ 
+    @media screen and(min-width:1024px) {
+      .grilla-digitaldesing{
+grid-template-columns: 1;
+      grid-template-rows: 1% 70% 5%;
+      grid-template-areas: 
+      
+      "menu"
+      "galeria"
+      "formulario"
+      "publicidad"
+      ;
+     /*
+      grid row-gap: 1em;
+      width: 95%;
+      height: 100vh
+    */
+    }
+    }
+ @media screen and (min-width:768px) and (max-width:1023px ) {
+
+  .grilla-digitaldesing{
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15% 10% 30% ;
+    grid-template-areas: 
+    "menu"
+    "galeria"
+    "formulario"
+    "publicidad"
+
+    /*
+        grid row-gap: 1em;
+    width: 95%;
+    height: 100vh
+*/
+
+ }
+  }
+  @media screen and (min-width:400px) and (max-width:767){
+    
+    .grilla-digitaldesing {
+     
+ display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% 60% 20% 20%;
+      grid-template-areas: 
+      "menu"
+      "galeria"
+      "formulario"
+      "publicidad"
+  
+      /*
+      grid row-gap: 1em;
+      width: 95%;
+      height: 100vh;*/
+    }
+ }
