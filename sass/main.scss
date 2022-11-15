@@ -46,14 +46,18 @@ header{
            }
         }
 
-       
 
-        .about{
-            justify-content: flex-end;
-              color: red(22, 22, 161);
-            margin: 2em;
-            border-bottom: 1px solid #F2C2C2;
+
+        main{
             text-align: center;
-            }
-        
-       
+           margin: 0em;
+     
+          &_about{
+          justify-content: flex-end;
+            color: red (22, 22, 161);
+          margin: 2em;
+          border-bottom: 1px solid #F2C2C2;
+          text-align: center;
+          }
+          
+        }
