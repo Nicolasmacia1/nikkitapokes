@@ -154,19 +154,14 @@ justify-content: center;
   background-color: #DCB5B8;
   
   }
-  
-  
+ 
   select{
-   font-family:  Georgia, 'Times New Roman', Times, serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
    background-color: #F2C2C2;
   }
-  
-  
-  
+
   .imagen{
-   
-  
-  
+
   line-height: 100px;
   justify-content: center;
   margin: 0%;
@@ -204,9 +199,10 @@ justify-content: center;
   .digitaldesingtitulo{ 
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red(22, 22, 161);
-    margin: 2em;
-    border-bottom: 1px solid #F2C2C2;
+
+    margin: 115px;
+    border-bottom: 1px solid#F2C2C2;
+    text-align: center;
   }
   .casa{
     height: 10em;
@@ -425,7 +421,7 @@ display: grid;
   
       display:grid;
       grid-template-columns: 1;
-      grid-template-rows: 10% 10% 60% 10%;
+      grid-template-rows: 7% 70% 10% 10%;
       grid-template-areas: 
       "menu"
       "galeria"
@@ -513,7 +509,7 @@ display: grid;
   
    display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 10% 50% 50% ;
+    grid-template-rows: 7% 20% 50% ;
     grid-template-areas: 
     "menu"
     "galeria"
