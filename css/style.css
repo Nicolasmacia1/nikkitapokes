@@ -1,4 +1,14 @@
 
+
+.titulo{                                                                                                                                              
+display: flex;
+justify-content: center;
+    word-spacing: 1%;
+    letter-spacing: 1em;
+    text-align: center;
+  
+    color: #F2C2C2;
+    }
   
   header{
   display: grid;
@@ -80,10 +90,6 @@
   padding-bottom: 4em;
   }
   
-
-
-
-
   
   #redesfooter{
     margin-top: 10%;
@@ -100,7 +106,7 @@
     align-content: center;
     margin-top: 10%;
   border: #F2C2C2;
-    
+   font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
   
@@ -143,7 +149,7 @@
   }
   
   input{
-
+   font-family: Georgia, 'Times New Roman', Times, serif;
    color: #F2C2C2;
   background-color: #DCB5B8;
   
@@ -151,7 +157,7 @@
   
   
   select{
-
+   font-family:  Georgia, 'Times New Roman', Times, serif;
    background-color: #F2C2C2;
   }
   
