@@ -1,5 +1,4 @@
 
-
 .titulo{                                                                                                                                              
 display: flex;
 justify-content: center;
@@ -90,6 +89,10 @@ justify-content: center;
   padding-bottom: 4em;
   }
   
+
+
+
+
   
   #redesfooter{
     margin-top: 10%;
@@ -106,7 +109,7 @@ justify-content: center;
     align-content: center;
     margin-top: 10%;
   border: #F2C2C2;
-    Georgia, 'Times New Roman', Times, serif;
+    
     
   }
   
@@ -149,7 +152,7 @@ justify-content: center;
   }
   
   input{
-    Georgia, 'Times New Roman', Times, serif;
+
    color: #F2C2C2;
   background-color: #DCB5B8;
   
@@ -157,7 +160,7 @@ justify-content: center;
   
   
   select{
-    Georgia, 'Times New Roman', Times, serif;
+
    background-color: #F2C2C2;
   }
   

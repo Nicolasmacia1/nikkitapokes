@@ -1,0 +1,148 @@
+/*index*/ /*vars*/ /*header*/
+header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header .menu {
+  right: 122em;
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 100%;
+}
+header .menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block;
+}
+header .menu li {
+  display: inline-block;
+  text-align: center;
+}
+header .menu li a:hover {
+  color: #F2C2C2;
+}
+
+main {
+  text-align: center;
+  margin: 0em;
+}
+main .about {
+  justify-content: flex-end;
+  color: red 22, 22, 161;
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
+  text-align: center;
+}
+main .sobrenicole1 {
+  font-family: Harmonia Sans, sans-serif;
+  padding: 2em;
+  margin-right: 2em;
+  color: red;
+}
+main .comparasion {
+  border-bottom: 1px solid #F2C2C2;
+  border-top: 0%;
+  margin: 2em;
+  padding-bottom: 4em;
+}
+
+footer {
+  margin-top: 10em;
+}
+footer .newsletter {
+  align-items: center;
+  color: #F2C2C2;
+  justify-content: center;
+  margin-bottom: -8em;
+  margin-left: 50em;
+  margin-right: 5em;
+  font-size: small;
+  size-adjust: 10em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .newslettertitulo {
+  border-bottom-style: solid;
+  border-color: #F2C2C2 1px;
+  border-width: 1px;
+  font-size: small;
+  margin-bottom: 2em;
+}
+footer .formulario {
+  align-content: center;
+  margin-top: 10%;
+  border: #F2C2C2;
+}
+footer option {
+  background-color: #F2C2C2;
+}
+footer select {
+  background-color: #F2C2C2;
+}
+footer textarea {
+  margin-top: 1em;
+  height: 50px;
+  background-color: #DCB5B8;
+}
+footer fieldset.email {
+  border: 2px solid #F2C2C2;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  right: 110px;
+  border-bottom: 2px solid #F2C2C2;
+  align-self: center;
+}
+footer fieldset.datos {
+  border: 2px solid #F2C2C2;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  border-bottom: 2px solid #F2C2C2;
+  align-self: center;
+}
+footer legend {
+  color: rgb(71, 61, 61);
+}
+footer input {
+  color: #F2C2C2;
+  background-color: #DCB5B8;
+}
+footer .footertitulo {
+  border-bottom-style: solid;
+  border-color: #F2C2C2;
+  border-width: 1px;
+  font-size: small;
+  margin-right: 60em;
+  margin-bottom: 2em;
+  color: #F2C2C2;
+  margin-left: 5%;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .menufooter {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .menufooter li {
+  list-style: none;
+}
+footer .menufooter li a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(71, 61, 61);
+  padding: 20px;
+}
+footer .menufooter li a:hover {
+  color: #F2C2C2;
+}
+footer .redesfooter {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

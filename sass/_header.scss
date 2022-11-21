@@ -1,0 +1,33 @@
+/*header*/
+header{
+
+    text-align:center;
+    font-family: $fontfamily;
+
+      
+      .menu{
+        right: 122em;
+           list-style: none;
+           padding: 0;
+          
+           width: 90%;
+           max-width: 100%;
+          
+          }
+          .menu li a {
+    
+            text-decoration: none; 
+            color: black;
+            padding: 20px;
+            display: block;
+        }
+      .menu li {
+            display: inline-block;
+            text-align: center;
+    }
+    
+    .menu li a:hover{
+     color: $color;
+         }
+
+        }
