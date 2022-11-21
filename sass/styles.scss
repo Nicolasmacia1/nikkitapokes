@@ -2,7 +2,7 @@
 @import "vars";
 @import "header";
 @import "footer";
-@import "handpoked";
+
 
 
          main{
@@ -35,24 +35,8 @@
               margin: 2em;
               padding-bottom: 4em;
               }
-
-            }
-            main{
-              .handpoked{
-                  font-weight: lighter;
-                  font-family: Georgia, 'Times New Roman', Times, serif;
-                  color: red;
-                  margin: 2em;
-                  border-bottom: 1px solid#F2C2C2;
                 }
-              }
-              main{
-                .handpoked{
-                    font-weight: lighter;
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                    color: red;
-                    margin: 2em;
-                    border-bottom: 1px solid#F2C2C2;
-                  }
+      
+                footer{
+                  background-color: red($color: #000000);
                 }
-             

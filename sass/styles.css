@@ -124,14 +124,6 @@ footer .redesfooter {
   align-items: center;
 }
 
-main .handpoked {
-  font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: red;
-  margin: 2em;
-  border-bottom: 1px solid #F2C2C2;
-}
-
 main {
   text-align: center;
   margin: 0em;
@@ -156,18 +148,6 @@ main .comparasion {
   padding-bottom: 4em;
 }
 
-main .handpoked {
-  font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: red;
-  margin: 2em;
-  border-bottom: 1px solid #F2C2C2;
-}
-
-main .handpoked {
-  font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: red;
-  margin: 2em;
-  border-bottom: 1px solid #F2C2C2;
+footer {
+  background-color: 0;
 }/*# sourceMappingURL=styles.css.map */
