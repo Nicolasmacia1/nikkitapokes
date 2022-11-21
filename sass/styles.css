@@ -24,30 +24,7 @@ header .menu li a:hover {
   color: #F2C2C2;
 }
 
-main {
-  text-align: center;
-  margin: 0em;
-}
-main .about {
-  justify-content: flex-end;
-  color: red 22, 22, 161;
-  margin: 2em;
-  border-bottom: 1px solid #F2C2C2;
-  text-align: center;
-}
-main .sobrenicole1 {
-  font-family: Harmonia Sans, sans-serif;
-  padding: 2em;
-  margin-right: 2em;
-  color: red;
-}
-main .comparasion {
-  border-bottom: 1px solid #F2C2C2;
-  border-top: 0%;
-  margin: 2em;
-  padding-bottom: 4em;
-}
-
+/*footer*/
 footer {
   margin-top: 10em;
 }
@@ -145,4 +122,52 @@ footer .redesfooter {
   margin-left: 20%;
   margin-right: 20%;
   align-items: center;
+}
+
+main .handpoked {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
+}
+
+main {
+  text-align: center;
+  margin: 0em;
+}
+main .about {
+  justify-content: flex-end;
+  color: red 22, 22, 161;
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
+  text-align: center;
+}
+main .sobrenicole1 {
+  font-family: Harmonia Sans, sans-serif;
+  padding: 2em;
+  margin-right: 2em;
+  color: red;
+}
+main .comparasion {
+  border-bottom: 1px solid #F2C2C2;
+  border-top: 0%;
+  margin: 2em;
+  padding-bottom: 4em;
+}
+
+main .handpoked {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
+}
+
+main .handpoked {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  margin: 2em;
+  border-bottom: 1px solid #F2C2C2;
 }/*# sourceMappingURL=styles.css.map */

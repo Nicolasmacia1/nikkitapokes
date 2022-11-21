@@ -1,0 +1,123 @@
+/*footer*/
+
+footer{
+    margin-top: 10em;
+ 
+    .newsletter{
+      align-items: center;
+        color: $color;
+      justify-content: center;
+      margin-bottom: -8em;
+        margin-left: 50em;
+      margin-right: 5em;
+        font-size: small;
+      size-adjust: 10em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+      }
+      
+.newslettertitulo{
+
+border-bottom-style: solid;
+border-color: $color 1px;
+border-width: 1px;
+font-size: small;
+margin-bottom: 2em;
+
+}
+
+.formulario{
+align-content: center;
+margin-top: 10%;
+border: $color;
+
+
+}
+option{
+background-color: $color;
+}
+select{
+background-color: $color;
+}
+
+textarea{
+margin-top: 1em;
+height: 50px;
+background-color:#DCB5B8;
+}
+fieldset.email{
+border: 2px solid $color;
+margin-left: 20%;
+margin-right: 20%;
+position: relative;
+right: 110px;
+border-bottom: 2px solid $color;
+align-self: center;
+}
+fieldset.datos{
+border: 2px solid $color;
+margin-left: 20%;
+margin-right: 20%;
+position: relative;
+border-bottom: 2px solid $color;
+align-self: center;
+}
+
+
+
+legend{
+color: rgb(71, 61, 61);
+}
+
+input{
+
+color:  $color;
+background-color: #DCB5B8;
+
+}
+    
+.footertitulo{
+border-bottom-style: solid;
+border-color: $color;
+border-width: 1px;
+font-size: small;
+margin-right: 60em;
+margin-bottom: 2em;
+color: $color;
+margin-left: 5%;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.menufooter{
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.menufooter li{
+list-style: none;
+}
+
+.menufooter li a{
+list-style: none;
+text-decoration: none; 
+color:rgb(71, 61, 61);
+padding: 20px;
+}
+
+
+.menufooter li a:hover{
+color: $color;
+}
+
+.redesfooter{
+margin-top: 10%;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;
+align-items: center;
+}
+}

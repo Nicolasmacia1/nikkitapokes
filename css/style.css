@@ -1,13 +1,4 @@
 
-.titulo{                                                                                                                                              
-display: flex;
-justify-content: center;
-    word-spacing: 1%;
-    letter-spacing: 1em;
-    text-align: center;
-  
-    color: #F2C2C2;
-    }
   
   header{
   display: grid;
