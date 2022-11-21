@@ -1,0 +1,30 @@
+/*main*/
+main{
+.digitaldesingtitulo{ 
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin: 115px;
+    border-bottom: 1px solid#F2C2C2;
+    text-align: center;
+  }
+  .contenedor .galeria :hover{
+    transform: scale(1.2);
+    z-index: 1;
+    
+    
+    }
+    .galeria{
+  
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+          justify-items: center;
+          grid-template-columns: repeat(3,1fr);
+        display: grid;
+        align-content: center;
+        margin-bottom: 0%;
+        border-bottom: 1px solid #F2C2C2;
+        
+        }   
+}

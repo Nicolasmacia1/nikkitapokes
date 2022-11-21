@@ -165,6 +165,30 @@ main .imagen img {
           animation-delay: 0s;
 }
 
+/*main*/
+main .digitaldesingtitulo {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 115px;
+  border-bottom: 1px solid #F2C2C2;
+  text-align: center;
+}
+main .contenedor .galeria :hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+main .galeria {
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  align-content: center;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #F2C2C2;
+}
+
 main {
   text-align: center;
   margin: 0em;
@@ -196,6 +220,47 @@ main .handpoked {
   color: red;
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
+}
+main .contenedor .galeria :hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+main .galeria {
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  align-content: center;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #F2C2C2;
+}
+main .imagen {
+  line-height: 100px;
+  justify-content: center;
+  margin: 0%;
+}
+main .imagen img {
+  width: 170px;
+  height: 181px;
+  margin-bottom: 0%;
+  box-shadow: 0px 10px 15px;
+  -webkit-animation-name: imagenes;
+          animation-name: imagenes;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/*digitaldesing*/
+main .digitaldesingtitulo {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 115px;
+  border-bottom: 1px solid #F2C2C2;
+  text-align: center;
 }
 main .contenedor .galeria :hover {
   transform: scale(1.2);

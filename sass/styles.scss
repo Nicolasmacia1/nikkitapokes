@@ -3,7 +3,7 @@
 @import "header";
 @import "footer";
 @import "handpoked";
-
+@import "digitaldesing";
 
 
          main{
@@ -85,6 +85,54 @@
       animation-delay: 0s;
       
       }
-                
-                  
-              }
+      }
+
+      /*digitaldesing*/
+      main{
+.digitaldesingtitulo{ 
+  font-weight: lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  margin: 115px;
+  border-bottom: 1px solid#F2C2C2;
+  text-align: center;
+}
+.contenedor .galeria :hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+.galeria{
+  
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+  display: grid;
+  align-content: center;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #F2C2C2;
+  
+  } 
+  .imagen{
+
+    line-height: 100px;
+    justify-content: center;
+    margin: 0%;
+    
+    }
+    
+    .imagen img{
+    width: 170px;
+    height: 181px;
+    margin-bottom: 0%;
+    box-shadow: 0px 10px 15px;
+    animation-name: imagenes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    
+    }
+    
+      
+}
+  
