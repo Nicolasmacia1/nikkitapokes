@@ -4,7 +4,7 @@
 @import "footer";
 @import "handpoked";
 @import "digitaldesing";
-
+@import "contacto";
 
          main{
             text-align: center;
@@ -13,8 +13,7 @@
               
           .about{
             justify-content: flex-end;
-              color: red (22, 22, 161);
-            margin: 2em;
+             margin: 2em;
             border-bottom: 1px solid #F2C2C2;
             text-align: center;
             }
@@ -25,7 +24,7 @@
               padding: 2em;
               
             margin-right: 2em;
-             color: red
+             
 
             }
 
@@ -42,10 +41,9 @@
             main{
               .handpoked{
                   font-weight: lighter;
-                  font-family: Georgia, 'Times New Roman', Times, serif;
-                  color: red;
+                  font-family: $fontfamily;
                   margin: 2em;
-                  border-bottom: 1px solid#F2C2C2;
+                  border-bottom: 1px solid $color;
                 }
                 .contenedor .galeria :hover{
                   transform: scale(1.2);
@@ -64,7 +62,7 @@
     display: grid;
     align-content: center;
     margin-bottom: 0%;
-    border-bottom: 1px solid #F2C2C2;
+    border-bottom: 1px solid $color;
     
     } 
     .imagen{
@@ -91,10 +89,10 @@
       main{
 .digitaldesingtitulo{ 
   font-weight: lighter;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: $fontfamily;
 
   margin: 115px;
-  border-bottom: 1px solid#F2C2C2;
+  border-bottom: 1px solid$color;
   text-align: center;
 }
 .contenedor .galeria :hover{
@@ -111,7 +109,7 @@
   display: grid;
   align-content: center;
   margin-bottom: 0%;
-  border-bottom: 1px solid #F2C2C2;
+  border-bottom: 1px solid $color;
   
   } 
   .imagen{
@@ -135,4 +133,17 @@
     
       
 }
+/*contacto*/
+main{
+  .formulario{
+      align-content: center;
+      margin-top: 10%;
+    border: $color;
+     font-family: $fontfamily;
+      
+    }
+    legend{
+      color: rgb(71, 61, 61);
+    }
+  }
   

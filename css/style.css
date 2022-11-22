@@ -51,8 +51,6 @@ justify-content: center;
     font-family: Harmonia Sans,sans-serif;
     padding: 2em;
     
-  margin-right: 2em;
-   color: red
   
   }
   
@@ -64,7 +62,7 @@ justify-content: center;
   
   .about{
   justify-content: flex-end;
-    color: red(22, 22, 161);
+  
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
   text-align: center;
@@ -219,7 +217,7 @@ justify-content: center;
   .handpoked{
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red(22, 22, 161);
+   
     margin: 2em;
     border-bottom: 1px solid#F2C2C2;
   }
@@ -290,13 +288,7 @@ justify-content: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
   }
-  
-  
-  
-  
-  
-  
-  
+
   .newslettertitulo{
   
     border-bottom-style: solid;
@@ -306,10 +298,7 @@ justify-content: center;
   margin-bottom: 2em;
   
   }
-  
-  
-  
-  
+
   a{
     text-decoration: none;
   
@@ -330,7 +319,7 @@ justify-content: center;
   .contacto{
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red(22, 22, 161);
+   
     margin: 2em;
     border-bottom: 1px solid #F2C2C2;
   text-align: justify;

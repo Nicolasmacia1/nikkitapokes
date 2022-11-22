@@ -189,13 +189,20 @@ main .galeria {
   border-bottom: 1px solid #F2C2C2;
 }
 
+/*contacto*/
+main .formulario {
+  align-content: center;
+  margin-top: 10%;
+  border: #F2C2C2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 main {
   text-align: center;
   margin: 0em;
 }
 main .about {
   justify-content: flex-end;
-  color: red 22, 22, 161;
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
   text-align: center;
@@ -204,7 +211,6 @@ main .sobrenicole1 {
   font-family: Harmonia Sans, sans-serif;
   padding: 2em;
   margin-right: 2em;
-  color: red;
 }
 main .comparasion {
   border-bottom: 1px solid #F2C2C2;
@@ -217,7 +223,6 @@ main .comparasion {
 main .handpoked {
   font-weight: lighter;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: red;
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
 }
@@ -293,4 +298,15 @@ main .imagen img {
           animation-duration: 10s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
+}
+
+/*contacto*/
+main .formulario {
+  align-content: center;
+  margin-top: 10%;
+  border: #F2C2C2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main legend {
+  color: rgb(71, 61, 61);
 }/*# sourceMappingURL=styles.css.map */
