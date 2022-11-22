@@ -196,6 +196,9 @@ main .formulario {
   border: #F2C2C2;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+main legend {
+  color: rgb(71, 61, 61);
+}
 
 main {
   text-align: center;
