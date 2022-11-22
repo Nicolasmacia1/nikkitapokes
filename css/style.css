@@ -423,7 +423,7 @@ display: grid;
       }
       
       .grilla-handpoked section .contenedor{
-        grid-area: galeria;
+        grid-area: main;
       }
     
      
@@ -459,7 +459,7 @@ display: grid;
       size: 10em;
       display:grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10% 10% 60% ;
+      grid-template-rows: 10% 65% 10% ;
       grid-template-areas: 
       "menu"
       "galeria"
