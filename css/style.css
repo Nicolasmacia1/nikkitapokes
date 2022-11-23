@@ -343,7 +343,7 @@ justify-content: center;
 
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: 10% 60% 1%;
+    grid-template-rows: 7% 70% 10%;
     grid-template-areas: 
     "menu"
     "main"
