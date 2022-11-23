@@ -369,7 +369,7 @@ justify-content: center;
       .grilla-index{
 display: grid;
         grid-template-columns: 1;
-        grid-template-rows: 10% 60% 5% ;
+        grid-template-rows: 10% 65% 10% ;
         grid-template-areas: 
         "menu"
         " main"
