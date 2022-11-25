@@ -377,17 +377,13 @@ justify-content: center;
 
    
  
-    @media screen and (min-width:400px) and (max-width:767px){
+    @media only screen and (max-width: 575px){
       
       .grilla-index{
 display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% 65% 7% 0% ;
-        grid-template-areas: 
-        "menu"
-        "main"
-        "aside"
-        "formulario"
+        grid-template-rows: 10% 65% 7% 15% ;
+    
  
         /*
         grid row-gap: 1em;
@@ -398,8 +394,9 @@ display: grid;
 
   .newsletter{
 
-margin-left: 40em;
-
+margin-left: 25em;
+margin-top: 10;
+display: block;
 
 
   }
