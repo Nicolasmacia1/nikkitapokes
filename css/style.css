@@ -392,17 +392,22 @@ display: grid;
       }
        .newslettertitulo{
         
- margin-right: 0em;
+text-align: center;
 
+       }
+
+       h2{
+        margin-left: -10em;
        }
 
   .newsletter{
 font-size: x-small;
-margin-left: 6em;
+margin-left: 20em;
 margin-top: 0em;
 margin-bottom: 10em;
 text-align: center;
 justify-content: center;
+
   }
 
   .menufooter{
