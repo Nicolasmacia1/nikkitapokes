@@ -390,19 +390,31 @@ display: grid;
         width: 95%;
         height: 100vh;*/
       }
-       
+       .newslettertitulo{
+        
+ margin-right: 0em;
+
+       }
 
   .newsletter{
 font-size: x-small;
-margin-left: 38em;
+margin-left: 6em;
 margin-top: 0em;
-
+margin-bottom: 10em;
+text-align: center;
+justify-content: center;
   }
 
   .menufooter{
 margin-bottom: 0em;
 font-size: smaller;
 
+
+  }
+
+  .footertitulo{
+    margin-right: 0em;
+    text-align: center;
   }
 img{
   width: 7em;
