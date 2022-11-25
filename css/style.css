@@ -354,8 +354,10 @@ justify-content: center;
     "aside"
     "formulario"
    
-  
-  
+  }
+
+  img{
+    width: 200px;
   }
   .grilla-index header{
     grid-area: menu;
