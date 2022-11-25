@@ -395,16 +395,26 @@ display: grid;
        
   }
   .newsletter{
-    background-color: #563232;
-  }
-  
 
+margin-left: 40em;
+
+
+
+  }
+img{
+  width: 7em;
+}
 .grilla-index header{
   grid-area: menu;
   }
   
   .grilla-index main{
     grid-area: main;
+   
+  }
+.nicole{
+    font-size: smaller;
+ margin-top: 6%;
   }
 
 
