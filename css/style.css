@@ -382,7 +382,7 @@ justify-content: center;
       .grilla-index{
 display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% 65% 7% 15% ;
+        grid-template-rows: 10% 60% 20%;
     
  
         /*
@@ -393,11 +393,15 @@ display: grid;
        
 
   .newsletter{
+font-size: x-small;
+margin-left: 38em;
+margin-top: 0em;
 
-margin-left: 25em;
-margin-top: 10;
-display: block;
+  }
 
+  .menufooter{
+margin-bottom: 0em;
+font-size: smaller;
 
   }
 img{
