@@ -233,8 +233,12 @@ justify-content: center;
   
   @keyframes imagenes {
     100% {color:#563232}
-  
-    
+
+
+  }
+
+  .aside{
+    width: 100vw;
   }
   
   footer{
@@ -342,11 +346,12 @@ justify-content: center;
   .grilla-index{
 
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: 7% 70% 10%;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 65% 5% 2%;
     grid-template-areas: 
     "menu"
     "main"
+    "aside"
     "formulario"
    
   
@@ -360,19 +365,26 @@ justify-content: center;
       grid-area: main;
     }
   
+
+    .grilla-index aside{
+      grid-area: aside;
+    }
     .grilla-index footer{
       grid-area: formulario;
     }
+
+   
  
     @media screen and (min-width:400px) and (max-width:767px){
       
       .grilla-index{
 display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 10% 65% 10% ;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 65% 7% 0% ;
         grid-template-areas: 
         "menu"
-        " main"
+        "main"
+        "aside"
         "formulario"
  
         /*
@@ -382,6 +394,30 @@ display: grid;
       }
        
   }
+  .newsletter{
+    background-color: #563232;
+  }
+  
+
+.grilla-index header{
+  grid-area: menu;
+  }
+  
+  .grilla-index main{
+    grid-area: main;
+  }
+
+
+  .grilla-index aside{
+    grid-area: aside;
+
+  
+  }
+  .grilla-index footer{
+    grid-area: formulario;
+    font-size: smaller;
+  }
+
   
    @media screen and (min-width:768px) and (max-width:1023px ) {
   
