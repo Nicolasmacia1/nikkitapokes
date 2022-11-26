@@ -382,9 +382,8 @@ justify-content: center;
       .grilla-index{
 display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% 60% 20%;
-    
- 
+        grid-template-rows: 10% 55% 20%;
+
         /*
         grid row-gap: 1em;
         width: 95%;
@@ -409,6 +408,12 @@ text-align: center;
 justify-content: center;
 
   }
+  .titulo{
+    font-size: smaller;
+  }
+  .menu{
+    font-size: smaller;
+  }
 
   .menufooter{
 margin-bottom: 0em;
@@ -430,8 +435,8 @@ img{
   
   .grilla-index main{
     grid-area: main;
-   
-  }
+   }
+
 .nicole{
     font-size: smaller;
  margin-top: 6%;
@@ -447,6 +452,7 @@ img{
     grid-area: formulario;
     font-size: smaller;
   }
+ 
 }
   
    @media screen and (min-width:768px) and (max-width:1023px ) {
