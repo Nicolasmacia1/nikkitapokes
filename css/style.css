@@ -550,3 +550,51 @@ footer{
   font-size: smaller;
 }
   }
+
+  @media only screen and (max-width: 575px) {
+    .grilla-digitaldesing{
+      display: grid;
+    grid-template-columns: 100%;
+    }
+    .titulo{
+      font-size: smaller;
+    }
+    .menu{
+      font-size: smaller;
+    }
+.imagen{
+  width: 1px;
+margin-left: -10em;
+padding: 1em;
+
+}
+.newsletter{
+  font-size: x-small;
+  margin-left: 20em;
+  margin-top: 0em;
+  margin-bottom: 10em;
+  text-align: center;
+  justify-content: center;
+  }
+    .titulo{
+      font-size: smaller;
+    }
+    .menu{
+      font-size: smaller;
+    }
+  
+    .menufooter{
+  margin-bottom: 0em;
+  font-size: smaller;
+  
+  
+    }
+  
+    .footertitulo{
+      margin-right: 0em;
+      text-align: center;
+    }
+footer{
+  font-size: smaller;
+}
+  }
