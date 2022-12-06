@@ -1,4 +1,4 @@
-
+/* header */
 
 .titulo{                                                                                                                                              
 display: flex;
@@ -6,7 +6,7 @@ justify-content: center;
     word-spacing: 1%;
     letter-spacing: 1em;
     text-align: center;
-  
+font-family: ITC Benguiat,serif;
     color: #F2C2C2;
     }
   
@@ -26,8 +26,7 @@ justify-content: center;
           
            width: 90%;
            max-width: 100%;
-          
-          }
+                              }
   
   
       .menu li a {
@@ -43,17 +42,15 @@ justify-content: center;
   }
   
   .menu li a:hover{
-   color: #F2C2C2
+   color: #F2C2C2;
        }
+
+
   
-  .sobrenicole1{
-  
-    font-family: Harmonia Sans,sans-serif;
-    padding: 2em;
-    
-  
-  }
-  
+/* main index */
+
+
+
   main{
     text-align: center;
    margin: 0em;
@@ -88,7 +85,87 @@ justify-content: center;
   padding-bottom: 4em;
   }
   
+
+
+/*aside*/
+
+
+
+.newsletter{
+  align-items: center;
+    color: #F2C2C2;
+  justify-content: center;
+  margin-bottom: -8em;
+    margin-left: 50em;
+  margin-right: 5em;
+    font-size: small;
+  size-adjust: 10em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
+  }
+
+  .newslettertitulo{
+  
+    border-bottom-style: solid;
+  border-color: #F2C2C2 1px;
+  border-width: 1px;
+  font-size: small;
+  margin-bottom: 2em;
+  
+  }
+
+.formulario{
+    align-content: center;
+    margin-top: 10%;
+  border: #F2C2C2;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .footertitulo{
+    border-bottom-style: solid;
+    border-color: #F2C2C2;
+    border-width: 1px;
+      font-size: small;
+      margin-right: 60em;
+      margin-bottom: 2em;
+      color: #F2C2C2;
+    margin-left: 5%;
+      text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+
+    .menufooter{
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+      }
+      .menufooter li{
+        list-style: none;
+      }
+        
+      .menufooter li a{
+       list-style: none;
+        text-decoration: none; 
+        color:rgb(71, 61, 61);
+        padding: 20px;
+      }
+      
+      
+      .menufooter li a:hover{
+        color: #F2C2C2;
+            }
+       
+
+  
+
+/*footer*/
+
+footer{
+  margin-top: 10em;
+}
+
   #redesfooter{
     margin-top: 10%;
     display: flex;
@@ -99,15 +176,28 @@ justify-content: center;
   align-items: center;
   }
   
+  .instagram a:hover {
+    color: #F2C2C2;
+   }
+   .facebook a:hover{
+     color: #528EE4;
+   }
+   .behance a:hover{
+     color: #8BCAD9;
+   
+   }
+   .pinterest a:hover{
+     color: red;
+   }
+   
   
-   .formulario{
-    align-content: center;
-    margin-top: 10%;
-  border: #F2C2C2;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-    
-  }
-  
+
+
+  /*bodyindex*/
+
+
+
+
   
   
   option{
@@ -177,10 +267,6 @@ justify-content: center;
   
   }
   
-  
-  
-  
-  
   .galeria{
   
   align-items: center;
@@ -228,80 +314,14 @@ justify-content: center;
   
   }
   
-  
-  
-  
-  @keyframes imagenes {
-    100% {color:#563232}
 
-
-  }
 
   .aside{
     width: 100vw;
   }
   
-  footer{
-    margin-top: 10em;
-  }
-  .menufooter{
-  text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  }
-  .menufooter li{
-    list-style: none;
-  }
-    
-  .menufooter li a{
-   list-style: none;
-    text-decoration: none; 
-    color:rgb(71, 61, 61);
-    padding: 20px;
-  }
-  
-  
-  .menufooter li a:hover{
-    color: #F2C2C2;
-        }
-   
-  
-  .footertitulo{
-  border-bottom-style: solid;
-  border-color: #F2C2C2;
-  border-width: 1px;
-    font-size: small;
-    margin-right: 60em;
-    margin-bottom: 2em;
-    color: #F2C2C2;
-  margin-left: 5%;
-    text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  }
-  
-  .newsletter{
-  align-items: center;
-    color: #F2C2C2;
-  justify-content: center;
-  margin-bottom: -8em;
-    margin-left: 50em;
-  margin-right: 5em;
-    font-size: small;
-  size-adjust: 10em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  }
+ 
 
-  .newslettertitulo{
-  
-    border-bottom-style: solid;
-  border-color: #F2C2C2 1px;
-  border-width: 1px;
-  font-size: small;
-  margin-bottom: 2em;
-  
-  }
 
   a{
     text-decoration: none;
@@ -329,151 +349,8 @@ justify-content: center;
   text-align: justify;
   }
   
-  .instagram a:hover {
-   color: #F2C2C2;
-  }
-  .facebook a:hover{
-    color: #528EE4;
-  }
-  .behance a:hover{
-    color: #8BCAD9;
-  
-  }
-  .pinterest a:hover{
-    color: red;
-  }
-  
-  .grilla-index{
-
-    display:grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 65% 5% 2%;
-    grid-template-areas: 
-    "menu"
-    "main"
-    "aside"
-    "formulario"
-   
-  }
-
-  img{
-    width: 200px;
-  }
-  .grilla-index header{
-    grid-area: menu;
-    }
-    
-    .grilla-index main{
-      grid-area: main;
-    }
-  
-
-    .grilla-index aside{
-      grid-area: aside;
-    }
-    .grilla-index footer{
-      grid-area: formulario;
-    }
-
-   
  
-    @media only screen and (max-width: 575px) {
-      
-      .grilla-index{
-display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 55% 20%;
-
-        /*
-        grid row-gap: 1em;
-        width: 95%;
-        height: 100vh;*/
-      }
-       .newslettertitulo{
-        text-align: center;
-      }
-
-       h2{
-        margin-left: -10em;
-       }
-
-  .newsletter{
-font-size: x-small;
-margin-left: 20em;
-margin-top: 0em;
-margin-bottom: 10em;
-text-align: center;
-justify-content: center;
-}
-  .titulo{
-    font-size: smaller;
-  }
-  .menu{
-    font-size: smaller;
-  }
-
-  .menufooter{
-margin-bottom: 0em;
-font-size: smaller;
-
-
-  }
-
-  .footertitulo{
-    margin-right: 0em;
-    text-align: center;
-  }
-img{
-  width: 7em;
-}
-.grilla-index header{
-  grid-area: menu;
-  }
   
-  .grilla-index main{
-    grid-area: main;
-   }
-
-.nicole{
-    font-size: smaller;
- margin-top: 6%;
-  }
-
-
-  .grilla-index aside{
-    grid-area: aside;
-
-  
-  }
-  .grilla-index footer{
-    grid-area: formulario;
-    font-size: smaller;
-  }
- 
-}
-  
-@media screen and (min-width: 768px){
-.grilla-index{
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows: 10% 65% 10% 10%;
-grid-template-areas: 
-"menu"
-"main"
-"aside"
-"formulario"
-}
-
-
-
-
-
-
-
-
-}
-
-
  .grilla-contacto{
 display: grid;
   grid-template-columns: 100%;
