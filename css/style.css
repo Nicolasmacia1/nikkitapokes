@@ -109,7 +109,7 @@ display: inline-block;
     border-bottom-style: solid;
   border-color: #F2C2C2 1px;
   border-width: 1px;
-  font-size: small;
+  font-size: x-small;
   margin-bottom: 2em;
   
   }
@@ -546,3 +546,35 @@ display: inline;
 
 }
 
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
+  .grilla-index{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+.titulo{
+  font-size: small;
+display: flex;
+text-align: center;
+}
+
+.menu{
+  font-size: small;
+display: inline;
+
+}
+.newsletter{
+display: block;
+margin-left: 2em;
+}
+.menufooter{
+  display: block;
+  margin-top: 3em;
+}
+.footertitulo{
+  margin-top: 14em;
+}
+
+
+}
