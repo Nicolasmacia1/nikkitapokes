@@ -17,7 +17,7 @@ font-family: ITC Benguiat,serif;
      font-family: Georgia, 'Times New Roman', Times, serif;
       }
       .menu{
-        display: flex;
+display: inline-block;
         justify-content: center;
         align-items: center;
         right: 122em;
@@ -59,7 +59,7 @@ font-family: ITC Benguiat,serif;
   
   .about{
   justify-content: flex-end;
-  
+  font-size: xx-large;
   margin: 2em;
   border-bottom: 1px solid #F2C2C2;
   text-align: center;
@@ -400,7 +400,7 @@ margin-bottom: 10em;
 
 
 
-/*mediaquery*/
+/*digitalmedia*/
 
 @media only screen and (max-width: 575px) {
   .grilla-digitaldesing{
@@ -450,6 +450,10 @@ font-size: smaller;
 }
 }
 
+/*mediahandpoked*/
+
+
+
 
 @media only screen and (max-width: 575px) {
   .grilla-handpoked{
@@ -459,9 +463,9 @@ font-size: smaller;
   .titulo{
     font-size: smaller;
   }
-  .menu{
-    font-size: smaller;
-  }
+
+   
+  
 .imagen{
 width: 1px;
 margin-left: -10em;
@@ -499,6 +503,14 @@ font-size: smaller;
 }
 }
 
+
+
+/*indexmedias*/
+
+
+
+
+
 @media only screen and (max-width: 575px) {
   .grilla-index{
     display: grid;
@@ -533,3 +545,4 @@ display: inline;
 
 
 }
+
