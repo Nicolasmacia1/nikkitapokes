@@ -68,18 +68,18 @@ font-family: ITC Benguiat,serif;
   .nicole{
   margin-right: 20%;
     margin-left: 20%;
-    font-size: medium;
+    font-size:  small;
     font-family: Harmonia Sans,sans-serif;
     text-align: center;
   background-color: none;
   color: rgb(71, 61, 61);
-  margin-top: 10em;
+  margin-top: 5em;
   
   }
   
   .comparasion{
   
-  border-bottom: 1px solid #F2C2C2;
+
   border-top: 0%;
   margin: 2em;
   padding-bottom: 4em;
@@ -497,4 +497,39 @@ font-size: smaller;
 footer{
 font-size: smaller;
 }
+}
+
+@media only screen and (max-width: 575px) {
+  .grilla-index{
+    display: grid;
+  grid-template-columns: 100%;
+
+}
+
+.nicole{
+  font-size: x-small;
+
+}
+main{
+  margin-bottom: 1em;
+}
+
+  .titulo{
+    font-size: x-small;
+    
+
+  }
+  .menu{
+    font-size: x-small;
+display: inline;
+}
+
+.footertitulo{
+  font-size: x-small;
+}
+.newsletter{
+  font-size: x-small;
+}
+
+
 }
