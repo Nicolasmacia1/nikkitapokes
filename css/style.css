@@ -466,8 +466,25 @@ font-size: smaller;
 
 /*mediahandpoked*/
 
+@media only screen and (min-width: 200px) and (max-width: 576px){
+
+.grilla-handpoked{    
+  display: grid;
+  grid-template-columns: 100%;
+
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: 25% 25%;
+width: 600px;
+
+}
 
 
+
+
+}
 
 @media only screen and (max-width: 575px) {
   .grilla-handpoked{
@@ -560,6 +577,8 @@ display: inline;
 
 
 }
+
+
 
 @media only screen and (min-width: 576px) and (max-width: 768px){
 
