@@ -72,7 +72,7 @@ display: inline-block;
     font-family: Harmonia Sans,sans-serif;
     text-align: center;
   background-color: none;
-  color: rgb(71, 61, 61);
+  color: #0E0E0E;
   margin-top: 5em;
   
   }
@@ -379,9 +379,6 @@ font-size: small;
   }
 
 
-   
- 
-
   /*skin-care*/
 .skincare{
   margin-right: 20%;
@@ -390,9 +387,13 @@ font-size: small;
   font-family: Harmonia Sans,sans-serif;
   text-align: center;
 background-color: none;
-color: rgb(71, 61, 61);
+color: #0E0E0E;
 margin-top: 7em;
 margin-bottom: 10em;
+margin: 6em;
+margin-bottom: 10em;
+border-bottom: 1px solid #F2C2C2;
+padding: 4em;
 
 }
 
@@ -420,9 +421,18 @@ margin-bottom: 10em;
 .imagen{
 width: 1px;
 margin-left: -10em;
-padding: 1em;
+padding: 2em;
 
 }
+.galeria{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.digitaldesingtitulo{
+  margin-top: 2em;
+}
+
 .newsletter{
 font-size: x-small;
 margin-left: 20em;
@@ -509,11 +519,12 @@ font-size: smaller;
 
 
 
+
+
+
+
+
 /*indexmedias*/
-
-
-
-
 
 @media only screen and (max-width: 575px) {
   .grilla-index{
@@ -580,5 +591,50 @@ margin-left: 2em;
   margin-top: 14em;
 }
 
+
+}
+
+
+
+
+
+/*skincaremedias*/
+
+
+@media only screen and (max-width: 575px) {
+  .grilla-skincare{
+    display: grid;
+  grid-template-columns: 100%;
+
+}
+
+.skincare{
+  font-size: x-small;
+
+}
+main{
+  margin-bottom: 1em;
+}
+
+  .titulo{
+    font-size: x-small;
+    
+
+  }
+  .menu{
+    font-size: x-small;
+display: inline;
+}
+
+.footertitulo{
+  font-size: x-small;
+}
+.newsletter{
+  font-size: x-small;
+}
+
+.menufooter{
+  font-size: x-small;
+}
 
 }
