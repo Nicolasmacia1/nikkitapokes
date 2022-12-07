@@ -278,7 +278,7 @@ footer{
   align-content: center;
   margin-bottom: 0%;
   border-bottom: 1px solid #F2C2C2;
-  
+  margin-bottom: 6em;
   } 
   .digitaldesingtitulo{ 
     font-weight: lighter;
@@ -482,8 +482,6 @@ width: 600px;
 }
 
 
-
-
 }
 
 @media only screen and (max-width: 575px) {
@@ -533,11 +531,6 @@ footer{
 font-size: smaller;
 }
 }
-
-
-
-
-
 
 
 
@@ -614,9 +607,6 @@ margin-left: 2em;
 }
 
 
-
-
-
 /*skincaremedias*/
 
 
@@ -657,3 +647,25 @@ display: inline;
 }
 
 }
+
+/*contacto-medias*/
+@media only screen and (min-width: 200px) and (max-width: 576px){
+
+  .grilla-contacto{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  main{
+
+font-size: x-small;
+margin-right: 15em;
+
+  } 
+  
+.contacto{
+  margin-left: 5em;
+}
+
+
+  }
+
