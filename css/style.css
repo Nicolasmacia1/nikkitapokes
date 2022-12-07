@@ -655,17 +655,15 @@ display: inline;
     display: grid;
     grid-template-columns: 100%;
   }
-  main{
-
-font-size: x-small;
-margin-right: 15em;
-
-  } 
+ 
   
 .contacto{
-  margin-left: 5em;
+  margin-left: 6em;
 }
+.formulario{
+  margin-left: -2em;
 
+}
 
   }
 
