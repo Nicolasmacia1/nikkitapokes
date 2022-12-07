@@ -365,7 +365,7 @@ grid-template-rows: 10% ;
 
 .grilla-contacto header{
   grid-area: menu;
-font-size: small;
+
   }
   
   .grilla-contacto main{
@@ -654,16 +654,42 @@ display: inline;
   .grilla-contacto{
     display: grid;
     grid-template-columns: 100%;
+    
   }
  
+.grilla-contacto main {
+margin-top: 4em;
+
+font-size: xx-small;
+}
   
 .contacto{
+  display: block;
   margin-left: 6em;
+
 }
 .formulario{
-  margin-left: -2em;
 
+  margin-left: -0em;
+font-size: xx-small;
+display: grid;
+width: fit-content;
+grid-template-columns: 40%;
+margin-top: 8em;
 }
-
+::placeholder{
+  font-size: xx-small;
+}
+.file{
+  font-size: xx-small;
+}
   }
 
+  input{
+    font-size: xx-small;
+  }
+
+  .newslettertitulo{
+   margin-left: -8em;
+   text-align: center;
+  }
